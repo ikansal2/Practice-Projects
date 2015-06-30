@@ -2,6 +2,7 @@ package com.zesteventapp.practiceproj;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -32,6 +33,10 @@ public class MainActivity extends ActionBarActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+
+
+        Log.i("Zest", "Welcome to Zest!");
+        Log.d("Zest","Welcome to Zest!");
 
         return super.onOptionsItemSelected(item);
     }
